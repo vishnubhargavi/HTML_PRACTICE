@@ -1,0 +1,64 @@
+h1{
+    color: rgba(131, 26, 147, 0.953);
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+body
+{
+    background-image:url("login.jpg");
+    background-position: no-repeat;
+    opacity: 5.0;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    background-size: cover;
+    backdrop-filter: blur(30px);
+}
+
+input[type=text]{
+    position: relative;left:200px; top:10px;;
+    color: blue;
+    text-decoration: solid;
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+input[type=password]{
+    position: relative;left:200px; top:10px;;
+    color: blue;
+    text-decoration: solid;
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 20px;
+    padding:10px;
+    text-align:center;
+}
+
+p{
+    position: relative;right:200px; top:10px;;
+    color: rgb(179, 60, 179);
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    line-height: 50px;
+}
+button:hover{
+    background-color: rgb(114, 100, 237);
+}
+
+button{
+    background-color: rgb(43, 226, 101);
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    border-width: 10px;
+    border-radius: 100px;
+    padding: 2%;
+    margin: 5%;
+}

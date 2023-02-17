@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    color: darkorange;
+    text-decoration: solid aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+body{
+    background-color: dimgrey;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 71, 47);
+    transition: 2s;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    width: 30px;
+    height: 30px;
+    background-color: darkviolet;
+    border-radius: 50%;
+}
+
+.circle:nth-of-type(1){
+    transform: translateX(600px) translateY(-100px);
+}
+
+section div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 20px 0;
+    transition: margin-left 1s;
+    text-align:justify;
+    font-weight: bold;
+    border-radius: 20%;
+    font-size: 20px;
+    border: 5px solid;
+   padding: 0.8%;
+}
+
+section:hover div{ 
+    margin-left: 100px;
+}
+
+/*div:nth-of-type(1){
+    transition-timing-function:linear;
+}*/
+section:nth-of-type(1) div:nth-of-type(1){
+    transform: translateY(-800px);
+}
+section:nth-of-type(1) div:nth-of-type(2){
+    transform: translateY(-800px) translateX(6px);
+}
+section:nth-of-type(1) div:nth-of-type(3){
+    transform: translateY(-800px) translateX(6px);
+}
+
+section img{
+    width: 200px;
+    height: 200px;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+button{
+   border-radius: 100%;
+   background-color: lightsalmon;
+   margin: 10%;
+   text-align: center;
+   display: inline-block;
+   border: 30px solid;
+   font-size: 30px;
+}
+/*background-image: url("login.jpg") no-repeat;*/
+section:nth-of-type(1) form:nth-of-type(1){
+    transform: translate(2px);
+}
+section:nth-of-type(1) form:nth-of-type(2){
+    transform: translateX(400px) translateY(-420px);
+}
+section:nth-of-type(1) form:nth-of-type(3){
+    transform: translateX(800px) translateY(-820px);
+}

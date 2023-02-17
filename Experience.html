@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            position: absolute;
+        }
+        img{
+            height: 200px;
+            width: 300px;
+            margin: 20px;
+            border: 20px solid;
+            margin-inline-start: 10%;
+        }
+        section:first-of-type img:nth-of-type(1){
+            transform:rotate(30deg) translateY(30px);
+        }
+        section:nth-of-type(2) img:nth-of-type(1){
+            transform: skew(-25deg) translateY(40px);
+        }
+        h1{
+            text-align: center;
+            color: indianred;
+            text-decoration: wavy;
+        }
+        h3{
+            text-align: right;
+            color: crimson;
+            padding: 0.8%;
+            float:inline-end;
+        }
+        section:nth-of-type(1) h3:nth-of-type(1){
+            transform: translateX(3px) translateY(-400px);
+        }
+            
+        section:nth-of-type(2) h3:nth-of-type(1){
+            transform: translateX(3px) translateY(-300px);
+        }
+        h2{
+            text-align:center;
+            color: rgb(237, 100, 164);
+            font-weight: bold;
+            font-size: 20px;
+            margin: 10px;
+            transition: margin-left 1s;
+            height: 75px;
+            width: 300px;
+            background-color: bisque;
+            float: left;
+            text-decoration: underline;
+        }
+        h2:hover{
+            margin-left: 100px;
+        }
+        h2:nth-of-type(1){
+            transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        h2:nth-of-type(2){
+            transition-timing-function: ease-in-out;
+        }
+        p{
+            border: 20%;
+            padding: 20px;
+            font-weight: bold;
+
+        }
+        section:nth-of-type(1) p:nth-of-type(1){
+            transform: scaleY(1) translateY(-150px);
+        }
+        section:nth-of-type(2) p:nth-of-type(1){
+            transform: translateY(5px) translateX(0px);
+        }
+        div h1{
+            border: 10px solid;
+            background-color: cyan;
+            border-radius: 0.6px;
+            width: 200px;
+        }
+       section:nth-of-type(1) div h1:nth-of-type(1){
+            transform: translateX(750px) translateY(-100px)Skew(-20deg);
+        }
+        section:nth-of-type(1) div h1:nth-of-type(2){
+            transform: translateX(800px) translateY(-300px) Skew(20deg);
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h1>Work Experience </h1>
+<h2>Assistant System Engineer, TATA Consultancy Services</h2> 
+<img src="dynamics.jpg" alt="Microsoft Dynamics 365 image">
+<div>
+    <h1>CRM</h1>
+    <h1>Microsoft Dynamics 365</h1>
+    </div>
+<h3>July 2019 – November 2021</h3>
+
+<p>Client Project- Microsoft Dynamics 365 CAP (Automation Testing processes, Mobile Application Testing, followed Agile Methodologies for all the project activities).
+Expertise in configuring Entity, Views, Web resources, Pal Solutions, Charts, configuration and customization, integration with MS SharePoint 2010, MS Outlook and SQL Server, JavaScript, C#, ASP.NET, And Selenium Web Driver, security roles, business units, teams, field security profiles, callouts to CRM API, and CRM plugins.
+Experience in Microsoft Dynamics CRM Data integration towards import/export of data using custom application development.
+Experience in the use of web services and interacting with MS CRM databases using web service methods. •
+Experienced in using configuration files, unit testing using .net technology, and selenium creating Test NG projects.
+Knowledge of the understanding of the LoadRunner Automation tool.
+Expertise in the use of Selenium to develop an automation framework.</p>
+</section>
+<section>
+<h2>Software Engineer Intern, COIGN Private Ltd </h2> 
+<img src="intern.jpg" alt="Coign Intern image">
+<h3>April 2018 – June 2018 </h3>
+ <p>Worked on Android Security Application, The Project is regarding android security, person whose contact is registered and not answering our phone calls, it will help to send person’s Location information to us, and they can view location with google maps.
+Experienced in using Android Studio for this application development. </p>
+</section>
+</body>
+</html>

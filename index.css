@@ -1,5 +1,5 @@
 h1{
-    color: rgba(131, 26, 147, 0.953);
+    color: rgba(235, 20, 92, 0.953);
     text-align: center;
     padding: 30px;
     font-size: 50px;
@@ -8,14 +8,13 @@ h1{
 
 body
 {
-    background-image:url("login.jpg");
+    background-image:url("download.jpg");
     background-position: no-repeat;
     opacity: 5.0;
     width: 100%;
     height: auto;
     border-radius: 30px;
     background-size: cover;
-    backdrop-filter: blur(30px);
 }
 
 input[type=text]{
@@ -38,15 +37,14 @@ input[type=password]{
     padding:10px;
     text-align:center;
 }
-
-p{
-    position: relative;right:200px; top:10px;;
-    color: rgb(179, 60, 179);
+div{
+    color: rgb(20, 2, 58);
     font-weight: 700;
     text-align: center;
     font-size: 30px;
-    margin: 30px;
-    line-height: 50px;
+    margin:0%;
+    display: flex;
+    justify-content: space-evenly;
 }
 button:hover{
     background-color: rgb(114, 100, 237);

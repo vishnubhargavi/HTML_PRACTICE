@@ -26,7 +26,7 @@
         h1{
             text-align: center;
             color: indianred;
-            text-decoration: wavy;
+            font-size: 2em;
         }
         h3{
             text-align: right;
@@ -52,7 +52,8 @@
             width: 300px;
             background-color: bisque;
             float: left;
-            text-decoration: underline;
+            border: 4px solid green;
+            border-radius: 20px;
         }
         h2:hover{
             margin-left: 100px;
@@ -64,7 +65,7 @@
             transition-timing-function: ease-in-out;
         }
         p{
-            border: 20%;
+            border: 8px solid red;
             padding: 20px;
             font-weight: bold;
 
@@ -86,6 +87,23 @@
         }
         section:nth-of-type(1) div h1:nth-of-type(2){
             transform: translateX(800px) translateY(-300px) Skew(20deg);
+        }
+        button{
+            border: 5px solid;
+            border-radius: 10px;
+            background-color: blueviolet;
+            float: top-right;
+            padding: 1%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            transform: translateX(1300px) translateY(-1300px);
+        }
+        button:hover{
+            background-color: cyan;
+            box-shadow: 20px 10px;
+            color: rgb(223, 7, 7);
+            
         }
     </style>
 </head>
@@ -115,5 +133,8 @@ Expertise in the use of Selenium to develop an automation framework.</p>
  <p>Worked on Android Security Application, The Project is regarding android security, person whose contact is registered and not answering our phone calls, it will help to send person’s Location information to us, and they can view location with google maps.
 Experienced in using Android Studio for this application development. </p>
 </section>
+<form action="firstpage.html">
+<button type="submit"> <----BACK</button>
+</form>
 </body>
 </html>
